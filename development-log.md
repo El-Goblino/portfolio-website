@@ -44,10 +44,12 @@ However If by my own choosing I add major features they will follow the same str
 ### Issues 
 - Admin log in feature had potenial to cause security risk if source code stays public.
 - Site map was very basic.
+- Header styling wasnt aesthetically pleasing when to covering 100% of the viewport.
 
 ### Resolutions
 - Admin feature will be made on going and added in a build after 1.0.0 if security is no longer concered.
 - Site map was made into a flow chart to better indicate how the user will interact with the site.
+- Changed header to cover the entire viewport rather than a portion of it as shown in the wireframes.
 
 ### On going targets
 - Admin log in feature.
