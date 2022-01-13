@@ -16,6 +16,8 @@ This document will cover the various variables, functions, classes, elements and
 ### Layout.hbs
 
 - `navbar` Navigation bar.
+- `logo` Logo used in navigation bar.
+- `theme-toggle` Icon used to toggle light and dark mode in navigation menu.
 - `nav-toggle` Toggled hamburger menu used for smaller screens in navigation bar.
 - `nav-links` Page links used in the navigation bar. (Home, Projects, Contact.)
 
@@ -48,18 +50,18 @@ This document will cover the various variables, functions, classes, elements and
 
 - `.navbar` Navigation bar.
   - `.navbar img` Image used in navigation bar.
-- `.logo` Logo used in navigation bar.
-- `.nav-links` Page links used in the navigation bar. (Home, Projects, Contact.)
-  - `.nav-links ul` Unordered list in nav-links.
-  - `.nav-links li` nav-links list item.
-  - `.nav-links li a` nav-links list item anchor text.
-    - `.nav-links li a:hover` nav-links list item anchor text on mouse hover.
-
-- `.nav-toggle` Toggled hamburger menu used for smaller screens in navigation bar.
-  - `.nav-toggle:hover` Toggled hamburger menu used for smaller screens in navigation bar on mouse hover.
-  - `.nav-toggle .bar` Individual bars used in hamburger menu.
-
-- `.nav-links.active` When nav-links are activated.
+  - `.logo` Logo used in navigation bar.
+  - `.navbar svg` Svg icon used in navigation bar.
+  - `.theme-toggle` Icon used for toggling light and dark mode in navigation bar.
+  - `.nav-toggle` Toggled hamburger menu used for smaller screens in navigation bar.
+    - `.nav-toggle:hover` Toggled hamburger menu used for smaller screens in navigation bar on mouse hover.
+    - `.nav-toggle .bar` Individual bars used in hamburger menu.
+  - `.nav-links` Page links used in the navigation bar. (Home, Projects, Contact.)
+    - `.nav-links ul` Unordered list in nav-links.
+    - `.nav-links li` nav-links list item.
+    - `.nav-links li a` nav-links list item anchor text.
+      - `.nav-links li a:hover` nav-links list item anchor text on mouse hover.
+    - `.nav-links.active` When nav-links are activated.
 
 ## Additional Javascripts
 - `ToggleNavLinks` Function used for toggling appearance of nav-links.
