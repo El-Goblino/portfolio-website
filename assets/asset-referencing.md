@@ -19,6 +19,10 @@ This document contains links to all assets used in the project and credit goes t
 
 - [Icon url](https://thenounproject.com/term/computer/19562) 
 
+### icon.png
+
+- [Icon url](https://thenounproject.com/term/computer/19562) 
+
 ## SVGs
 
 Moon icon - regular style
