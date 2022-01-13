@@ -2,6 +2,21 @@
 
 This log will contain information about the development process or the project and the choosen methodology.
 
+## Contents
+
+- [Methodology](#methodology)
+- [Cycle1](#cycle-1-build-1.0.0)
+  - [Targets](#targets)
+    - [Intial Creation](#intial-creation)
+    - [Documentation](#documentation)
+    - [Pre Build Creation](#pre-build-creation)
+    - [Release Build 1.0.0](#release-build-1.0.0)
+  - [Completed Targets](#completed-targets)
+  - [Issues](#issues)
+  - [Resolutions](#resolutions)
+  - [On Going Targets](#on-going-targets)
+  - [Improvements](#improvements)
+
 ## Methodology
 
 For this project I have choosen to follow the Waterfall methodology.
