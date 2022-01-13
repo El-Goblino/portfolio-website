@@ -9,15 +9,15 @@ This document contains links to all assets used in the project and credit goes t
 
 ## Images
 
-logo-stock.png
+### logo-stock.png
 
-[Adobe Stock](https://stock.adobe.com/search?k=placeholder&asset_id=248426448)
+- [Adobe Stock](https://stock.adobe.com/search?k=placeholder&asset_id=248426448)
 
-icon.png
+### logo.png
 
-[Adobe Express](https://express.adobe.com/express-apps/logo-maker/preview)
+- [Adobe Express](https://express.adobe.com/express-apps/logo-maker/preview)
 
-[Icon url](https://thenounproject.com/term/computer/19562) 
+- [Icon url](https://thenounproject.com/term/computer/19562) 
 
 ## SVGs
 
