@@ -21,6 +21,14 @@ This document will cover the various variables, functions, classes, elements and
 - `nav-toggle` Toggled hamburger menu used for smaller screens in navigation bar.
 - `nav-links` Page links used in the navigation bar. (Home, Projects, Contact.)
 
+### Index.hbs
+
+- `hero` Hero section of the body.
+  - `hero-content` Main content section of the hero.
+    - `hero-text` Text section of the hero.
+    - `hero-image` Image used in hero.
+      - `portrait` Portrait image used in hero.
+
 ## Back-end
 
 - `body` Pre-assigned by express.
@@ -46,16 +54,18 @@ This document will cover the various variables, functions, classes, elements and
   - `body::-webkit-scrollbar-track` Background of scrollbar.
   - `body::-webkit-scrollbar-thumb` Thumb of the scrollbar.
 
-- `main` Main content of the body.
-
 - `.navbar` Navigation bar.
   - `.navbar img` Image used in navigation bar.
   - `.logo` Logo used in navigation bar.
   - `.navbar svg` Svg icon used in navigation bar.
   - `.theme-toggle` Icon used for toggling light and dark mode in navigation bar.
   - `.nav-toggle` Toggled hamburger menu used for smaller screens in navigation bar.
+    - `.nav-toggle:hover .bar` When toggle is on mouse hover trigger styling for bar.
     - `.nav-toggle:hover` Toggled hamburger menu used for smaller screens in navigation bar on mouse hover.
     - `.nav-toggle .bar` Individual bars used in hamburger menu.
+    - `.nav-toggle:hover .bar:nth-of-type(1)` First bar used in the toggle menu.
+    - `.nav-toggle:hover .bar:nth-of-type(2)` Second bar used in the toggle menu.
+    - `.nav-toggle:hover .bar:nth-of-type(3)` Third bar used in the toggle menu.
   - `.nav-links` Page links used in the navigation bar. (Home, Projects, Contact.)
     - `.nav-links ul` Unordered list in nav-links.
     - `.nav-links li` nav-links list item.
@@ -63,6 +73,18 @@ This document will cover the various variables, functions, classes, elements and
       - `.nav-links li a:hover` nav-links list item anchor text on mouse hover.
     - `.nav-links.active` When nav-links are activated.
 
+- `.hero` Hero section of the body.
+  - `hero-content` Main content section of the hero.
+  - `hero-text` Text section of the hero.
+    - `hero-text h1` Text heading used in hero-text.
+    - `hero-text p` Text paragraph used in hero-text.
+  - `hero-image` Image used in hero.
+  - `portrait` Portrait image used in hero.
+
 ## Additional Javascripts
 - `ToggleNavLinks` Function used for toggling appearance of nav-links.
-  - `navLink` Variable used to assigned element by class name.
+  - `navLink` Variable used to assigned element by class name for the links used in the navigation menu.
+  - `navBar` Variable used to assigned to element by class name for the entire navigation menu.
+
+- `scroll` 
+    - `navBar` Variable used to assigned to element by class name for the entire navigation menu.
