@@ -28,3 +28,11 @@ This document contains links to all assets used in the project and credit goes t
 Moon icon - regular style
 
 https://fontawesome.com/v5.15/icons/moon?style=regular
+
+Github icon
+
+https://fontawesome.com/v6.0/icons/github?s=brands
+
+Envelope icon
+
+https://fontawesome.com/v6.0/icons/envelope?s=solid
