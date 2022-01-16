@@ -110,6 +110,9 @@ This document will cover the various variables, functions, classes, elements and
       - `.projects-thumbnail` Thumbnails used in projects section.
 
 - `.content h1` Contact section heading.
+  - `.contact-form` Form used in contact section.
+    - `contact-form input, .contact-form textarea` Inputs and textarea used in form.
+    - `contact-form button` Button used in form.
 
 
 ## Additional Javascripts
