@@ -29,6 +29,18 @@ This document will cover the various variables, functions, classes, elements and
     - `hero-image` Image used in hero.
       - `portrait` Portrait image used in hero.
 
+- `about` About section of the body.
+  - `about-text` Text portion of the about section.
+    - `about-item` Item in about section.
+
+- `projects` Projects section of the body.
+  - `projects-content` Main content section of projects.
+    - `projects-item` Individual items in projects section.
+      - `projects-image` Thumbnails used in projects section.
+
+- `contact` Contact section of the body.
+  - `contact-form` Form used in contact section.
+
 ## Back-end
 
 - `body` Pre-assigned by express.
@@ -74,12 +86,31 @@ This document will cover the various variables, functions, classes, elements and
     - `.nav-links.active` When nav-links are activated.
 
 - `.hero` Hero section of the body.
-  - `hero-content` Main content section of the hero.
-  - `hero-text` Text section of the hero.
-    - `hero-text h1` Text heading used in hero-text.
-    - `hero-text p` Text paragraph used in hero-text.
-  - `hero-image` Image used in hero.
-  - `portrait` Portrait image used in hero.
+  - `.hero-content` Main content section of the hero.
+  - `.hero-text` Text section of the hero.
+    - `.hero-text h1` Text heading used in hero-text.
+    - `.hero-text p` Text paragraph used in hero-text.
+  - `.hero-image` Image used in hero.
+  - `.portrait` Portrait image used in hero.
+
+- `.about-text` Text portion of the about section.
+  - `.about-item` Item in about section.
+    - `.about-item h1` Item heading in about section.
+    - `.about-item p` Item paragraph in about section.
+
+- `.projects` Projects section of the body.
+  - `.projects h1` Projects heading section of the body.
+  - `.projects-content` Main content section of projects.
+  - `.projects-content h1` Main heading content section of projects.
+    - `.projects-item` Individual items in projects section.
+      - `.projects-item a` Individual items anchor text in projects section.
+      - `.projects-item h1` Individual items headers in projects section. 
+      - `.projects-image` Thumbnails used in projects section.
+        - `.projects-image:hover` Thumbnails used in projects section on hover.
+      - `.projects-thumbnail` Thumbnails used in projects section.
+
+- `.content h1` Contact section heading.
+
 
 ## Additional Javascripts
 - `ToggleNavLinks` Function used for toggling appearance of nav-links.
