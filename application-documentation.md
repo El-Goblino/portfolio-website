@@ -9,17 +9,24 @@ This document will cover the various variables, functions, classes, elements and
 - [Back-end](#back-end)
 - [Stylesheets](#stylesheets)
   - [Style.css](#style.hbs)
-- [AdditionalJavascripts](#additional-javascripts)
+- [Javascripts](#javascripts)
 
 ## Front-end
 
 ### Layout.hbs
 
 - `navbar` Navigation bar.
-- `logo` Logo used in navigation bar.
-- `theme-toggle` Icon used to toggle light and dark mode in navigation menu.
-- `nav-toggle` Toggled hamburger menu used for smaller screens in navigation bar.
-- `nav-links` Page links used in the navigation bar. (Home, Projects, Contact.)
+	- `logo` Logo used in navigation bar.
+	- `theme-toggle` Icon used to toggle light and dark mode in navigation menu.
+	- `nav-toggle` Toggled hamburger menu used for smaller screens in navigation bar.
+	- `nav-links` Page links used in the navigation bar. (Home, Projects, Contact.)
+
+- `footer` Footer.
+	- `footer-headings` Footer headings.
+	- `footer-content` Content section of footer.
+			- `footer-column` Footer columns.
+			- `footnote` Footer footnote.
+	
 
 ### Index.hbs
 
@@ -48,6 +55,9 @@ This document will cover the various variables, functions, classes, elements and
 ### Index.js
 
 - `title` Title variable to store title element.
+- `/` GET Renders the index page (index.hbs).
+- `/projects` GET Renders the projects page (projects.hbs).
+- `/contact` GET Renders the contact page (contact.hbs).
 
 ## Stylesheets
 
@@ -70,6 +80,7 @@ This document will cover the various variables, functions, classes, elements and
   - `.navbar img` Image used in navigation bar.
   - `.logo` Logo used in navigation bar.
   - `.navbar svg` Svg icon used in navigation bar.
+	  - `.navbar svg:hover` Svg icon used in navigation bar on hover.
   - `.theme-toggle` Icon used for toggling light and dark mode in navigation bar.
   - `.nav-toggle` Toggled hamburger menu used for smaller screens in navigation bar.
     - `.nav-toggle:hover .bar` When toggle is on mouse hover trigger styling for bar.
@@ -78,12 +89,25 @@ This document will cover the various variables, functions, classes, elements and
     - `.nav-toggle:hover .bar:nth-of-type(1)` First bar used in the toggle menu.
     - `.nav-toggle:hover .bar:nth-of-type(2)` Second bar used in the toggle menu.
     - `.nav-toggle:hover .bar:nth-of-type(3)` Third bar used in the toggle menu.
-  - `.nav-links` Page links used in the navigation bar. (Home, Projects, Contact.)
     - `.nav-links ul` Unordered list in nav-links.
     - `.nav-links li` nav-links list item.
     - `.nav-links li a` nav-links list item anchor text.
       - `.nav-links li a:hover` nav-links list item anchor text on mouse hover.
-    - `.nav-links.active` When nav-links are activated.
+
+- `.footer` Footer.
+  - `.footer-headings` Footer headings. 
+    - `.footer-headings h4` Footer h4 headings.
+  - `footer-content` Content section of footer.
+    - `footer-column` Footer columns.
+      - `footer-column a` Footer columns anchor text.
+        - `footer-column a:hover` Footer columns anchor text on hover.
+    - `footnote` Footer footnote. 
+
+- `.error-content` Content section of error page.
+  - `.error-content h1` Content section headings.
+  - `.error-content button` Content section button.
+  - `.error-content a` Content section anchor text.
+  - `.error-content button:hover` Content section button on hover.
 
 - `.hero` Hero section of the body.
   - `.hero-content` Main content section of the hero.
@@ -115,7 +139,7 @@ This document will cover the various variables, functions, classes, elements and
     - `contact-form button` Button used in form.
 
 
-## Additional Javascripts
+## Javascripts
 - `ToggleNavLinks` Function used for toggling appearance of nav-links.
   - `navLink` Variable used to assigned element by class name for the links used in the navigation menu.
   - `navBar` Variable used to assigned to element by class name for the entire navigation menu.
