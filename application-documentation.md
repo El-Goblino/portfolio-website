@@ -9,6 +9,9 @@ This document will cover the various variables, functions, classes, elements and
   - [Index](#index.hbs)
   - [Error](#error.hbs)
   - [Message-sent](#message-sent.hbs)
+  - [Projects](#projects.hbs)
+  - [Contact](#contact.hbs)
+
 - [Back-end](#back-end)
 - [Stylesheets](#stylesheets)
   - [Style.css](#style.hbs)
@@ -58,6 +61,22 @@ This document will cover the various variables, functions, classes, elements and
 ### Message-sent.hbs
 
 - `message-content` Content section of message page.
+
+### Projects.hbs
+
+- `projects-page` Projects section.
+  - `projects-page-heading` Page heading.
+  - `projects-page-content` Projects main content.
+    - `projects-page-item` Individual items in project page.
+      - `projects-page-image` Thumbnails used in project section.
+      - `projects-page-text` Text section of projects page.
+
+### Contact.hbs
+
+- `contact-page` Contact page
+  - `contact-page-content` Content section of contact page
+    - `contact-form` Form reused from index page.
+
 
 ## Back-end
 

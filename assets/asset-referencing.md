@@ -23,6 +23,10 @@ This document contains links to all assets used in the project and credit goes t
 
 - [Icon url](https://thenounproject.com/term/computer/19562) 
 
+### .map (contact.hbs)
+
+- [Image url](https://commons.wikimedia.org/wiki/File:South_West_England_districts_2011_map.svg)
+
 ## SVGs
 
 Moon icon - regular style
