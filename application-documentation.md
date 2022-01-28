@@ -6,6 +6,9 @@ This document will cover the various variables, functions, classes, elements and
 
 - [Front-end](#front-end)
   - [Layout](#layout.hbs)
+  - [Index](#index.hbs)
+  - [Error](#error.hbs)
+  - [Message-sent](#message-sent.hbs)
 - [Back-end](#back-end)
 - [Stylesheets](#stylesheets)
   - [Style.css](#style.hbs)
@@ -48,6 +51,14 @@ This document will cover the various variables, functions, classes, elements and
 - `contact` Contact section of the body.
   - `contact-form` Form used in contact section.
 
+### Error.hbs
+
+- `error-content` Content section of error page.
+
+### Message-sent.hbs
+
+- `message-content` Content section of message page.
+
 ## Back-end
 
 - `body` Pre-assigned by express.
@@ -58,6 +69,7 @@ This document will cover the various variables, functions, classes, elements and
 - `/` GET Renders the index page (index.hbs).
 - `/projects` GET Renders the projects page (projects.hbs).
 - `/contact` GET Renders the contact page (contact.hbs).
+- `/message-sent` GET Renders the message sent page (message-sent.hbs).
 
 ## Stylesheets
 
@@ -96,12 +108,15 @@ This document will cover the various variables, functions, classes, elements and
 
 - `.footer` Footer.
   - `.footer-headings` Footer headings. 
-    - `.footer-headings h4` Footer h4 headings.
+    - `.footer-headings h2` Footer h2 headings.
+    - `.footer-headings :nth-of-type(2)` Second bar heading used in footer.
   - `footer-content` Content section of footer.
     - `footer-column` Footer columns.
       - `footer-column a` Footer columns anchor text.
         - `footer-column a:hover` Footer columns anchor text on hover.
     - `footnote` Footer footnote. 
+      - `footnote button` Button used in footnote.
+      - `footnote button:hover` Button used in footnote on mouse hover.
 
 - `.error-content` Content section of error page.
   - `.error-content h1` Content section headings.
@@ -114,7 +129,8 @@ This document will cover the various variables, functions, classes, elements and
   - `.hero-text` Text section of the hero.
     - `.hero-text h1` Text heading used in hero-text.
     - `.hero-text p` Text paragraph used in hero-text.
-  - `.hero-image` Image used in hero.
+    - `.hero-text svg` SVG icons used in hero-text.
+      - `.hero-text svg:hover` SVG icons used in hero-text on mouse hover.
   - `.portrait` Portrait image used in hero.
 
 - `.about-text` Text portion of the about section.
@@ -135,8 +151,15 @@ This document will cover the various variables, functions, classes, elements and
 
 - `.content h1` Contact section heading.
   - `.contact-form` Form used in contact section.
-    - `contact-form input, .contact-form textarea` Inputs and textarea used in form.
+    - `contact-form input` Inputs fields used in form.
+    - `contact-form textarea` Textarea used in form.
     - `contact-form button` Button used in form.
+
+- `.message-content` Content section of message page.
+  - `.message-content h1` Content section headings.
+  - `.message-content button` Content section button.
+  - `.message-content a` Content section anchor text.
+  - `.message-content button:hover` Content section button on hover.
 
 
 ## Javascripts
