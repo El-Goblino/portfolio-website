@@ -29,6 +29,10 @@ This document contains links to all assets used in the project and credit goes t
 
 ## SVGs
 
+Sun icon - regular style
+
+https://fontawesome.com/v5.15/icons/sun?style=regular
+
 Moon icon - regular style
 
 https://fontawesome.com/v5.15/icons/moon?style=regular
