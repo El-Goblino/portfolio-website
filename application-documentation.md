@@ -32,7 +32,6 @@ This document will cover the various variables, functions, classes, elements and
 	- `footer-content` Content section of footer.
 			- `footer-column` Footer columns.
 			- `footnote` Footer footnote.
-	
 
 ### Index.hbs
 
@@ -79,8 +78,6 @@ This document will cover the various variables, functions, classes, elements and
 
 
 ## Back-end
-
-- `body` Pre-assigned by express.
 
 ### Index.js
 
@@ -180,7 +177,6 @@ This document will cover the various variables, functions, classes, elements and
   - `.message-content a` Content section anchor text.
   - `.message-content button:hover` Content section button on hover.
 
-
 ## Javascripts
 - `ToggleNavLinks` Function used for toggling appearance of nav-links.
   - `navLink` Variable used to assigned element by class name for the links used in the navigation menu.
@@ -188,3 +184,5 @@ This document will cover the various variables, functions, classes, elements and
 
 - `scroll` 
     - `navBar` Variable used to assigned to element by class name for the entire navigation menu.
+
+- `ScrollTop` Function to scroll page to the tage
