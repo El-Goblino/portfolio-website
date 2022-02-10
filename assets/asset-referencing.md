@@ -27,15 +27,13 @@ This document contains links to all assets used in the project and credit goes t
 
 - [Image url](https://commons.wikimedia.org/wiki/File:South_West_England_districts_2011_map.svg)
 
+### Thumbnail backgrounds
+
+Created using a combination of my own work and backgrounds generated from
+
+- [Background Generator](https://bggenerator.com/index.php)
+
 ## SVGs
-
-Sun icon - regular style
-
-https://fontawesome.com/v5.15/icons/sun?style=regular
-
-Moon icon - regular style
-
-https://fontawesome.com/v5.15/icons/moon?style=regular
 
 Github icon
 
