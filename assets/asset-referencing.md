@@ -4,28 +4,23 @@ This document contains links to all assets used in the project and credit goes t
 
 ## Contents
 
-- [Images](#images)
-- [SVGs](#svgs)
+- [Asset Referencing](#asset-referencing)
+  - [Contents](#contents)
+  - [Images / Videos](#images--videos)
+    - [Thumbnail backgrounds](#thumbnail-backgrounds)
+  - [SVGs](#svgs)
+  - [API](#api)
 
-## Images
+## Images / Videos
 
-### logo-stock.png
+Logo Computer Icon (Taken as icon from)
 
-- [Adobe Stock](https://stock.adobe.com/search?k=placeholder&asset_id=248426448)
+https://www.adobe.com/express/create/logo
 
-### logo.png
+Hero Video
 
-- [Adobe Express](https://express.adobe.com/express-apps/logo-maker/preview)
+https://pixabay.com/videos/circuit-electronics-digital-27725/
 
-- [Icon url](https://thenounproject.com/term/computer/19562) 
-
-### icon.png
-
-- [Icon url](https://thenounproject.com/term/computer/19562) 
-
-### .map (contact.hbs)
-
-- [Image url](https://commons.wikimedia.org/wiki/File:South_West_England_districts_2011_map.svg)
 
 ### Thumbnail backgrounds
 
@@ -43,8 +38,28 @@ Envelope icon
 
 https://fontawesome.com/v6.0/icons/envelope?s=solid
 
+Previous Arrow Icon
+
+https://fontawesome.com/icons/angle-left?s=solid
+
+Next Arrow Icon
+
+https://fontawesome.com/icons/angle-right?s=solid
+
+Folder Icon
+
+https://fontawesome.com/icons/folder?s=regular
+
+Globe Icon
+
+https://fontawesome.com/icons/earth-europe?s=solid
+
 ## API
 
 FormSubmit
 
 https://formsubmit.co/
+
+React slideshow image
+
+https://www.npmjs.com/package/react-slideshow-image
